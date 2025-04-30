@@ -13,3 +13,7 @@ def Contavogais(texto):
         if texto[x]== "a" or texto[x]== "e" or texto[x]== "i" or texto[x]== "o" or texto[x]== "u" or texto[x]== "A" or texto[x]== "E" or texto[x]== "I" or texto[x]== "O" or texto[x]== "U":
             cont=cont+1
         print(cont)
+
+def estoque(produto,quantidade,valorUnitario):
+    valortotal= quantidade*valorUnitario
+    return valortotal
